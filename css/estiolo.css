@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../img/geo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.container_form{
+
+    background-color: #0f1110 ;
+    border: 30px;
+    padding: 90px;
+    opacity: .9;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: 90px;
+
+}
+
+h2{
+    text-align: center;
+    color: rgb(122, 212, 38);
+
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: beige;
+    border-bottom: 2px solid black;
+}
+.check{
+    width: 15px;
+    height: 15px;
+    display: inline;
+
+}
+select{
+    flex: 1;
+    margin-left: 90px;
+    padding: 0.5em;
+    color: rgb(19, 18, 18);
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    color: white;
+
+}
+
+a{
+    color: white;
+    text-decoration:none;
+    margin-left: 45px;
+}
+.boton{
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(27, 31, 231) ;
+    color: rgb(12, 12, 12);
+   
+    border: none;
+    margin-left: 96px;
+
+}
+a:hover{
+    color: white;
+}
+label:hover{
+    color: white;
+}
+.boton:active{
+    background-color: black;
+}
